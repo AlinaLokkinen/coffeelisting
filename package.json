@@ -10,7 +10,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "homepage": "https://alinalokkinen.github.io/coffeelisting/"
+    "homepage": "http://.github.io/coffeelisting/"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
