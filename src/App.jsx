@@ -31,6 +31,3 @@ function App() {
 
 export default App;
 
-//
-
-// <h1 className="text-center text-[32px] font-dm font-medium ">Our collection</h1>
