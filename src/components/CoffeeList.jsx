@@ -20,7 +20,7 @@ const CoffeeList = () => {
     });
 
   return (
-    <div className="md:my-5 sm:my-20">
+    <div className="md:my-5 ">
       <div className="flex justify-center gap-5 mt-3 text-[14px] font-semibold ">
         <AllProductsButton showAll={showAll} setShowAll={setShowAll} />
         <AvailableNowButton showAll={showAll} setShowAll={setShowAll} />
