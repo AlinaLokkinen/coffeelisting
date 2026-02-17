@@ -1,6 +1,3 @@
-import star from '/public/star.svg'
-import filledstar from '/public/star_fill.svg'
-
 const Card = ({ c }) => {
   return (
     <div className="flex flex-col items-center font-dm font-bold mt-10">
@@ -18,9 +15,9 @@ const Card = ({ c }) => {
         <div className="flex justify-between text-[14px]">
           <div className="flex gap-1">
             {c.votes > 0 ? (
-            <img src={filledstar} alt="star" />
+            <img src="public/star_fill.svg" alt="star" />
           ) : (
-            <img src={star} alt="star" />
+            <img src="public/star.svg" alt="star" />
           )}
           <p>{c.rating != null ? Number(c.rating).toFixed(1) : c.rating}</p>
           {c.votes > 0 ? <p className="text-zinc-500">({c.votes} votes)</p> : <p className="text-textgrey">No ratings</p>}
