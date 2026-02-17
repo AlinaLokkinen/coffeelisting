@@ -15,9 +15,9 @@ const Card = ({ c }) => {
         <div className="flex justify-between text-[14px]">
           <div className="flex gap-1">
             {c.votes > 0 ? (
-            <img src="public/star_fill.svg" alt="star" />
+            <img src="./star_fill.svg" alt="star" />
           ) : (
-            <img src="public/star.svg" alt="star" />
+            <img src="./star.svg" alt="star" />
           )}
           <p>{c.rating != null ? Number(c.rating).toFixed(1) : c.rating}</p>
           {c.votes > 0 ? <p className="text-zinc-500">({c.votes} votes)</p> : <p className="text-textgrey">No ratings</p>}
