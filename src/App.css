@@ -1,1 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --font-dm: "DM Sans", sans-serif;
+}
+
+@theme {
+    --color-textwhite: #FEF7EE;
+    --color-textgrey: #6F757C;
+    --color-collectionbg: #1B1D1F;
+    --color-soldout: #ED735D;
+    --color-bg: #111315;
+    --color-price: #BEE3CC;
+    --color-chosenbutton: #4D5562;
+    --color-popular: #F6C768;
+}
+
